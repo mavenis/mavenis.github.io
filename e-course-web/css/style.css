@@ -29,7 +29,6 @@ h1 {
 	font: 35px Comic Sans MS;
 	text-align: center;
 }
-
 header span {
 	font-size: 18px;
 	color: #f06d6e;
@@ -76,6 +75,7 @@ header span {
 }
 .box_sub {
 	background-color: #e66768;
+	padding-top: 20px;
 }
 .bs_ico1,
 .bs_ico2,
@@ -123,8 +123,9 @@ header span {
 	position: relative;
 	margin-bottom: 50px;
 }
-.html_sub h2 {
-	padding: 50px 0 0 0;
+
+h2 {
+	padding: 30px 0 30px 0;
 	border-top: 4px solid #fac81b;
 	text-shadow: rgba(0,0,0,.6) 1px 1px;
 	color: #e66768;
@@ -134,7 +135,7 @@ header span {
 .hs_item_wrap {
 	display: inline-block;
 	width: 145px;
-	margin: 0 5px 0 5px;
+	margin: 0 5px 30px 5px;
 	position: relative;
 }
 .hs_item_wrap:hover {
@@ -142,6 +143,18 @@ header span {
 }
 .hs_item_wrap:hover h4{
 	color: #e66768;
+}
+.hs_item_wrap:hover p {
+	display: inline-block;
+	margin-top: 18px;
+	font-size: 12px;
+	line-height: 16px;
+	width: 300px;
+	border: 2px double #fac81b;
+
+}
+.hs_item_wrap p {
+	display: none;
 }
 .hs_item_wrap:nth-child(2) span {
 	background-position: -96px;
@@ -161,6 +174,10 @@ header span {
 .hs_item_wrap:nth-child(6) span {
 	margin-bottom: 34px;
 	background-position: -482px;
+}
+.hs_item_wrap p {
+	position: absolute;
+	
 }
 .hs_item a {
 	text-align: center;
@@ -188,4 +205,20 @@ header span {
 	background-image: url(../img/ico_section/tick.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
+}
+h3 {
+	background-color: #e66768;
+	padding: 50px 0 40px 0;
+	border-top: 4px solid #fac81b;
+	border-bottom: 4px solid #dfc8a9;
+	text-shadow: rgba(0,0,0,.6) 1px 2px;
+	color: #fac81b;
+	font: 28px Comic Sans MS;
+	text-align: center;
+}
+.struct_doc,
+.markup_text,
+.links {
+	background-color: #272822;
+	padding: 30px 0 30px 0;
 }
